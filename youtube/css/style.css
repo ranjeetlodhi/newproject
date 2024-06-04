@@ -1,0 +1,329 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif; 
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+
+
+  
+.header{
+    width: 100%;
+    float: left;
+    background-color: white;
+    margin-top: 20px;
+}
+.header-part-1{
+width: auto;
+float: left;
+}
+.menu{
+width: auto;
+float: left;
+position: relative;
+
+}
+.menu ul li{
+    display: inline-block;
+     
+}
+.header-part-2{
+    width: auto;
+    float: left;
+}
+.menu ul .bar a{
+    height: 40px;
+    display: inline-block;
+    font-size: 18px;
+    width: 40px;
+    text-align: center;
+    border-radius: 28px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    line-height: 40px;
+    transition: 2s;
+   
+    
+    
+}
+ .menu ul .bar a:hover{
+ background-color: darkgray;
+ color: aliceblue;
+} 
+.menu ul .bar i{
+    color:black;
+}
+.menu ul li img{
+    padding-left: 10px;
+    width: 105px;
+    vertical-align: middle;
+}
+.menu ul h6{
+    font-size: 11px;
+    position: absolute;
+    top: -1px;
+    left: 158px;
+}
+.search-bar{
+    width: auto;
+    height: 20px;
+    display: inline-block;
+    margin-left: 140px;
+   
+    position: relative;
+}
+.search-bar input{
+    width: 562px;
+    height: 43px;
+    border-radius: 50px;
+    padding-left: 21px;
+    border: none;
+    border: 1px solid darkgray;
+}
+.search-bar i {
+    font-size: 14px;
+    position: absolute;
+    right: 1px;
+    width: 65px;
+    top: 0px;
+    height: 42px;
+    border-left: 1px solid #dbdbdb;
+    padding-left: 17px;
+    padding-top: 13px;
+    border-radius: 0px 25px 25px 0px;
+    transition: 1s;
+}
+.search-bar i:hover{
+    background-color: rgb(248, 245, 245);
+}
+.voice {
+    float: right;
+    width: auto;
+}
+
+.voice i{
+    margin-left: 10px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    background-color:#dbdbdb;
+    border-radius: 38px;
+    text-align: center;
+    transition: 1s;
+}
+.voice i:hover{
+    background-color: darkgray;
+}
+.header-part-3{
+    width: auto;
+    float: right;
+}
+.video{
+   
+}
+.video ul li{
+    display: inline-block;
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.video ul li a i:hover{
+    color: red;
+    border-radius: 40px;
+    background-color: darkgray;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+   
+}
+.video ul li a {
+    color: black;
+   
+    
+}
+.home{
+    width: 100%;
+    float: left;
+
+}
+.home-bar{
+    width: 6%;
+    float: left;
+    margin-left: 0;
+}
+.home-logo{
+    float: left;
+    width: 100%;  
+}
+.home-logo ul{
+    margin-left: 5px;
+}
+.home-logo ul li {
+   list-style: none;
+   text-align: center;
+   text-decoration :none;
+   margin-bottom: 15px;
+   transition: 1s; 
+   padding-bottom: 8px;
+   padding-top: 10px;
+   border-radius: 10px;
+}
+.home-logo ul li:hover{
+    background: rgb(232, 231, 231);
+   
+   
+
+}
+.home-logo ul li a{
+    text-decoration: none;
+}
+.home-logo ul li a img{
+    display: block;
+    margin: auto;
+    width: 25px;
+}
+.slider{
+    width: 94%;
+    float: right;
+}
+.slider-text{
+    width: 100%;
+    float: left;
+}
+.slider-text ul {
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: scroll;
+}
+.slider-text ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    height: 20px;
+    background: rgb(232 229 229);
+    margin: 6px;
+    font-family: sans-serif;
+    text-align: unset;
+    padding-bottom: 25px;
+    padding-top: 8px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 1s;
+}
+.slider-text ul li:hover{
+    background-color: darkgray;
+}
+.slider-text ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.youtube{
+    width: 30%;
+    float: left;
+    margin-top: 23px;
+    margin-left: 28px;
+    margin-bottom: 100px;
+}
+.youtube-text h5 {
+    padding-top: 5px;
+    font-size: 13px;
+}
+.youtube-text {
+    width: 90%;
+    float: left;
+    padding-left: 20PX;
+}
+.slider {
+    width: 94%;
+    float: left;
+}
+.youtube-text h3 {
+    font-size: 16px;
+    font-family: system-ui;
+    line-height: 22px;
+}  
+.youtube-video{
+    width: 100%;
+    float: left;
+    height: 200px;  
+}
+.youtube-video iframe{
+    height: 200px;
+    border-radius: 20px 
+}
+
+
+.youtube-title{
+    width: 100%;
+    float: left;
+}
+.youtube-pic{
+    width: 10%;
+    float: left;
+}
+.youtube-pic img{
+    width: 100%;
+    border-radius: 23px 
+}
+.youtube-text{
+    width: 90%;
+    float: right;
+}
+.youtube-text h3{
+   
+    font-size: 17px;
+    font-family: system-ui;
+}
+.youtube-text h6 {
+    color: darkgray;
+    font-size: 16px;
+    padding-top: 13px;
+    font-weight: 400;
+}
+.youtube-text h6 span{
+    padding-left: 10px;
+}
+.youtube-text h4 {
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 8px;
+}
+.youtube-text h4 span{
+    padding-left: 10px;
+}
+.oll-1 {
+    padding-top: 18px;
+    width: 100%;
+    float: left;
+}
+.oll {
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
